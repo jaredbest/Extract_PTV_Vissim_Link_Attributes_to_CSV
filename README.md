@@ -1,7 +1,7 @@
 # Extract PTV Vissim Link Attributes to CSV
 
 ## Overview:
-A Python script that parses a [PTV Vissim](https://www.ptvgroup.com/en/solutions/products/ptv-vissim/) network file (INPX file) and exports a CSV file containing relevant link attributes.
+This repo contains a Python script that parses a [PTV Vissim](https://www.ptvgroup.com/en/solutions/products/ptv-vissim/) network file (INPX file) and exports a CSV file containing relevant link attributes.
 
 ------
 ### Supported PTV Vissim versions:
