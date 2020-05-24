@@ -21,7 +21,7 @@ from tkinter import filedialog
 
 def main():
 
-    # Open file dialog to select PTV Vissim network file (INPX):
+    # Open file dialog to select PTV Vissim network file (INPX file):
     root = tk.Tk()
     root.withdraw()
     filename = filedialog.askopenfilename()
