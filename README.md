@@ -16,6 +16,6 @@ This repo contains a Python script that parses a [PTV Vissim](https://www.ptvgro
 ## Instructions
 
 1. Run _extract-link-attributes-to-csv.py_ or _extract-link-attributes-to-csv.bat_.
-2. Select a PTV Vissim network file (INPX file) and then click "Open".
+2. Select a PTV Vissim network file (INPX file) and then click **Open**.
 
 The file _output.csv_ will be created in the same directory as the PTV Vissim network file (INPX file).
