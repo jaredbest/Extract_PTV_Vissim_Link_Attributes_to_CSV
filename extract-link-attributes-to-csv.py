@@ -15,12 +15,16 @@
 
 import xml.etree.ElementTree as ET
 import csv
+import tkinter as tk
+from tkinter import filedialog
 
 
 def main():
 
-    # Specify PTV Vissim network file (INPX):
-    filename = "network.inpx"
+    # Open file dialog to select PTV Vissim network file (INPX):
+    root = tk.Tk()
+    root.withdraw()
+    filename = filedialog.askopenfilename()
 
     tree = ET.parse(filename)
     root = tree.getroot()
