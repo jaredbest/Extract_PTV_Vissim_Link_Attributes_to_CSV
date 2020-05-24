@@ -61,7 +61,7 @@ def main():
             link_dict[link_number].append(
                 (coords_startX, coords_startY, coords_startZ))
 
-    with open('out.csv', 'w') as f:
+    with open('output.csv', 'w') as f:
         w = csv.writer(f, delimiter=',')
         w.writerow(['Link No.', 'Link or Connector', 'Link Width (m)',
                     'Lane No.', 'Start x', 'Start y', 'Start zOffset',
